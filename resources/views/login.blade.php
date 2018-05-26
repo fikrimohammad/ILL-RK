@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h4 class="fw-300 c-grey-900 mB-40">Halaman Login Pemustaka</h4>
+    <h4 class="fw-300 c-grey-900 mB-40">Halaman Login Pustakawan</h4>
     <form class="form-horizontal">
         {{ csrf_field() }}
 

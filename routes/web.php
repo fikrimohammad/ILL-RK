@@ -28,8 +28,19 @@ Route::prefix('librarian')->group(function (){
         return view('books.index');
     });
 
-    Route::get('/manage-loan', function () {
-        return view('librarian.manage-loan');
+    Route::prefix('/manage-loan')->group(function (){
+
+       Route::get('/pending', function (){
+           return view('librarian.manage-loan');
+       })->name('loan.pending');
+
+        Route::get('/active', function (){
+            return view('librarian.manage-loan');
+        })->name('loan.active');
+
+        Route::get('/history', function (){
+            return view('librarian.manage-loan');
+        })->name('loan.history');
     });
 
     Route::get('/manage-policy', function () {

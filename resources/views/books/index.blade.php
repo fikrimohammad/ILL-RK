@@ -3,6 +3,9 @@
     Halaman Kelola Buku
 @endsection
 @section('content')
+    <div class="pb-4">
+        <a class="btn btn-info" href="" role="button"><i class="c-white ti-plus pr-1"></i>Tambah Buku</a>
+    </div>
     <div class="row">
         <div class="col-md-12">
             <div class="bgc-white bd bdrs-3 p-20 mB-20">

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h4 class="fw-300 c-grey-900 mB-20">Pendaftaran Pemustaka ILL</h4>
+    <h4 class="fw-300 c-grey-900 mB-20">Pendaftaran Akun Pustakawan</h4>
     <form>
         {{ csrf_field() }}
 
