@@ -1,18 +1,18 @@
 @extends('layouts.app-admin')
 @section('page-header')
-    Halaman Pengelolaan Buku
+    Halaman Pengelolaan Tugas Akhir
 @endsection
 @section('content')
     <div class="pb-4">
-        <a class="btn btn-info" href="{{route('books.create')}}" role="button">
-            <i class="c-white ti-plus pr-1"></i>Tambah Buku
+        <a class="btn btn-info" href="{{route('thesis.create')}}" role="button">
+            <i class="c-white ti-plus pr-1"></i>Tambah Tugas Akhir
         </a>
     </div>
     <div class="row">
         <div class="col-md-12">
             <div class="bgc-white bd bdrs-3 p-20 mB-20">
                 <table id="dataTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                    <thead style="vertical-align: middle; text-align: center;">
+                    <thead>
                         <tr>
                             <th>ID</th>
                             <th>Judul</th>
@@ -21,12 +21,12 @@
                             <th>Opsi</th>
                         </tr>
                     </thead>
-                    <tbody style="vertical-align: middle;">
+                    <tbody>
                         <tr>
-                            <td>0511000000001</td>
-                            <td>The Book of Informatics</td>
-                            <td>Diarmuid Pigott</td>
-                            <td>2007</td>
+                            <td>0512000000001</td>
+                            <td>Perancangan dan Pembuatan Penerima Sinyal DTMF Telepon untuk Sistem Pelayanan Informasi Nilai Mahasiswa Teknik Informatika ITS</td>
+                            <td>Purno Widodo</td>
+                            <td>2002</td>
                             <td>
                                 <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
                                 <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
@@ -34,10 +34,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>0511000000002</td>
-                            <td>Python for Informatics: Exploring Information</td>
-                            <td>Charles Severance</td>
-                            <td>2013</td>
+                            <td>0512000000002</td>
+                            <td>Perancangan dan Pembuatan Perangkat Lunak Untuk Pengaturan Bandwidth di Jaringan TC-net Jurusan Teknik Informatika Berbasis WEB</td>
+                            <td>Elok Sri Wahyuni</td>
+                            <td>2003</td>
                             <td>
                                 <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
                                 <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
@@ -45,10 +45,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>0511000000003</td>
-                            <td>Biomedical Informatics: Computer Applications in Health Care and Biomedicine</td>
-                            <td>Edward H. Shortliffe</td>
-                            <td>2006</td>
+                            <td>0512000000003</td>
+                            <td>Implementasi Radially Distributed pada Deteksi Tepi Canny menggunakan paradigma Message Passing</td>
+                            <td>Irwan Setiawan Kilay</td>
+                            <td>2004</td>
                             <td>
                                 <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
                                 <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
@@ -56,21 +56,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>0511000000004</td>
-                            <td>Python Machine Learning</td>
-                            <td>Sebastian Raschka</td>
-                            <td>2015</td>
-                            <td>
-                                <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
-                                <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
-                                <a href="#" class="btn btn-danger"><i class="c-white ti-trash pr-1"></i>Hapus</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>0510000000005</td>
-                            <td>Pattern Recognition and Machine Learning</td>
-                            <td>Christopher Bishop</td>
-                            <td>2006</td>
+                            <td>0512000000004</td>
+                            <td>Analisa Kualitas Layanan Virtual Class di Lingkungan FTIf ITS</td>
+                            <td>Yusuf Nishfian A</td>
+                            <td>2008</td>
                             <td>
                                 <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
                                 <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>

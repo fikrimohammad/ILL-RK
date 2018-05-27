@@ -24,22 +24,23 @@ Route::prefix('librarian')->group(function (){
         return view('register');
     });
 
-    Route::get('/manage-book', function () {
-        return view('books.index');
+    Route::prefix('/manage-collection')->group(function (){
+        Route::resource('books', 'BookController');
+        Route::resource('thesis', 'ThesisController');
     });
 
     Route::prefix('/manage-loan')->group(function (){
 
        Route::get('/pending', function (){
-           return view('librarian.manage-loan');
+           return view('loans.loan-pending');
        })->name('loan.pending');
 
         Route::get('/active', function (){
-            return view('librarian.manage-loan');
+            return view('loans.loan-active');
         })->name('loan.active');
 
         Route::get('/history', function (){
-            return view('librarian.manage-loan');
+            return view('loans.loan-history');
         })->name('loan.history');
     });
 

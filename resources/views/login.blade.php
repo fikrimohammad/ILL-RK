@@ -50,9 +50,8 @@
                 </a>
             </div>
             <div class="peer">
-                <a href="/register" class="btn btn-link">Daftar Sebagai Pemustaka</a>
+                <a href="{{url('librarian/register')}}" class="btn btn-link">Daftar Sebagai Pustakawan</a>
             </div>
         </div>
     </form>
-
 @endsection

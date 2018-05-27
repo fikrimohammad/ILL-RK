@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Book;
+use App\Thesis;
 use Illuminate\Http\Request;
 
-class BookController extends Controller
+class ThesisController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class BookController extends Controller
      */
     public function index()
     {
-//        $book = Book::all();
-        return view('books.index');
+        //
+        return view('thesis.index');
     }
 
     /**
@@ -25,7 +25,8 @@ class BookController extends Controller
      */
     public function create()
     {
-        return view('books.create');
+        //
+        return view('thesis.create');
     }
 
     /**
@@ -42,10 +43,10 @@ class BookController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Thesis  $thesis
      * @return \Illuminate\Http\Response
      */
-    public function show(Book $book)
+    public function show(Thesis $thesis)
     {
         //
     }
@@ -53,22 +54,23 @@ class BookController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Thesis  $thesis
      * @return \Illuminate\Http\Response
      */
-    public function edit(Book $book)
+    public function edit(Thesis $thesis)
     {
         //
+        return view('thesis.edit');
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Book  $book
+     * @param  \App\Thesis  $thesis
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Book $book)
+    public function update(Request $request, Thesis $thesis)
     {
         //
     }
@@ -76,10 +78,10 @@ class BookController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Thesis  $thesis
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Book $book)
+    public function destroy(Thesis $thesis)
     {
         //
     }

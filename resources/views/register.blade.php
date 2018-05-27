@@ -63,7 +63,7 @@
         <div class="form-group">
             <div class="peers ai-c jc-sb fxw-nw">
                 <div class="peer">
-                    <a href="/login">Saya sudah punya akun</a>
+                    <a href="{{url('librarian/login')}}">Saya sudah punya akun</a>
                 </div>
                 <div class="peer">
                     <button class="btn btn-primary">Daftar</button>
