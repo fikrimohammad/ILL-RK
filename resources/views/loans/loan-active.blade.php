@@ -8,7 +8,7 @@ Halaman Kelola Peminjaman
         <div class="bgc-white bd bdrs-3 p-20 mB-20">
             <h4>Peminjaman Aktif</h4>
             <table id="dataTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                <thead>
+                <thead align="center">
                     <tr>
                         <th>ID Peminjaman</th>
                         <th>Nama Peminjam</th>
@@ -22,7 +22,7 @@ Halaman Kelola Peminjaman
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0513000000011</td>
+                        <td>0513000000006</td>
                         <td>Tegar Satrio Utomo</td>
                         <td>Pattern Recognition and Machine Learning</td>
                         <td>27-05-2018 10:00</td>
@@ -35,7 +35,7 @@ Halaman Kelola Peminjaman
                         </td>
                     </tr>
                     <tr>
-                        <td>0513000000012</td>
+                        <td>0513000000007</td>
                         <td>Fajar Maulana Firdaus</td>
                         <td>Python Machine Learning</td>
                         <td>27-05-2018 11:00</td>
@@ -48,7 +48,7 @@ Halaman Kelola Peminjaman
                         </td>
                     </tr>
                     <tr>
-                        <td>05130000000</td>
+                        <td>0513000000008</td>
                         <td>M Pandu Praadha</td>
                         <td>The Book of Informatics</td>
                         <td>01-06-2018 08:00</td>

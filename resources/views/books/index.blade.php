@@ -28,8 +28,8 @@
                             <td>Diarmuid Pigott</td>
                             <td>2007</td>
                             <td>
-                                <a href="#" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
-                                <a href="#" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
+                                <a href="{{route('books.show', 1)}}" class="btn btn-info"><i class="c-white ti-zoom-in pr-1"></i>Lihat</a>
+                                <a href="{{route('books.edit', 1)}}" class="btn btn-success"><i class="c-white ti-pencil-alt pr-1"></i>Sunting</a>
                                 <a href="#" class="btn btn-danger"><i class="c-white ti-trash pr-1"></i>Hapus</a>
                             </td>
                         </tr>
@@ -67,7 +67,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>0510000000005</td>
+                            <td>0511000000005</td>
                             <td>Pattern Recognition and Machine Learning</td>
                             <td>Christopher Bishop</td>
                             <td>2006</td>

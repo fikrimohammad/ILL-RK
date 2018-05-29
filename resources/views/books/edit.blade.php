@@ -17,35 +17,39 @@
                         <form>
                             <div class="form-group">
                                 <label for="title">Judul Buku</label>
-                                <input type="text" class="form-control" id="title">
+                                <input type="text" class="form-control" id="title" value="The Books of Informatics">
+                            </div>
+                            <div class="form-group">
+                                <label for="isbn">ISBN</label>
+                                <input type="text" class="form-control" id="isbn" value="9780170130448">
                             </div>
                             <div class="form-group">
                                 <label for="call_num">No. Panggil Buku</label>
-                                <input type="text" class="form-control" id="call_num">
+                                <input type="text" class="form-control" id="call_num" value="0511000000001">
                             </div>
                             <div class="form-group">
                                 <label for="class_num">No. Klasifikasi Buku</label>
-                                <input type="text" class="form-control" id="class_num">
+                                <input type="text" class="form-control" id="class_num" value="000.32">
                             </div>
                             <div class="form-group">
                                 <label for="class_code">Kode Klasifikasi Buku</label>
-                                <input type="text" class="form-control" id="class_code">
+                                <input type="text" class="form-control" id="class_code" value="Pig, B">
                             </div>
                             <div class="form-group">
                                 <label for="stock">Stok</label>
-                                <input type="text" class="form-control" id="stock">
+                                <input type="text" class="form-control" id="stock" value="3">
                             </div>
                             <div class="form-group">
                                 <label for="author">Pengarang</label>
-                                <input type="text" class="form-control" id="author">
+                                <input type="text" class="form-control" id="author" value="Diarmuid Pigott">
                             </div>
                             <div class="form-group">
                                 <label for="publisher">Penerbit</label>
-                                <input type="text" class="form-control" id="publisher">
+                                <input type="text" class="form-control" id="publisher" value="Cengage Learning">
                             </div>
                             <div class="form-group">
                                 <label for="publication_year">Tahun Terbit</label>
-                                <input type="text" class="form-control" id="publication_year">
+                                <input type="text" class="form-control" id="publication_year" value="2007">
                             </div>
                             <div class="form-group">
                                 <label for="book_cover">Cover Buku</label>

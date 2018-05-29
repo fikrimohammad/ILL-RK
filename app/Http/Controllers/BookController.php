@@ -45,9 +45,13 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function show(Book $book)
+//    public function show(Book $book)
+//    {
+//        //
+//    }
+    public function show()
     {
-        //
+        return view('books.show');
     }
 
     /**
@@ -56,9 +60,13 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function edit(Book $book)
+//    public function edit(Book $book)
+//    {
+//        //
+//    }
+    public function edit()
     {
-        //
+        return view('books.edit');
     }
 
     /**

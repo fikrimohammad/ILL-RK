@@ -18,11 +18,11 @@ Route::get('/', function () {
 Route::prefix('librarian')->group(function (){
     Route::get('/login', function () {
         return view('login');
-    });
+    })->name('librarian.login');
 
     Route::get('/register', function () {
         return view('register');
-    });
+    })->name('librarian.register');
 
     Route::prefix('/manage-collection')->group(function (){
         Route::resource('books', 'BookController');
@@ -42,6 +42,16 @@ Route::prefix('librarian')->group(function (){
         Route::get('/history', function (){
             return view('loans.loan-history');
         })->name('loan.history');
+    });
+
+    Route::prefix('/manage-policy')->group(function (){
+        Route::get('/index', function (){
+            return view('policy.index');
+        })->name('policy.index');
+
+        Route::get('/edit', function (){
+            return view('policy.edit');
+        })->name('policy.edit');
     });
 
     Route::get('/manage-policy', function () {

@@ -3,7 +3,7 @@
 @section('content')
 
     <h4 class="fw-300 c-grey-900 mB-40">Halaman Login Pustakawan</h4>
-    <form class="form-horizontal">
+    <form class="form-horizontal" method="get" action="{{route('books.index')}}">
         {{ csrf_field() }}
 
         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
