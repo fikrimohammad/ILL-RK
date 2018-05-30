@@ -19,7 +19,7 @@
 
 <body class="index-page sidebar-collapse">
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+<nav class="navbar navbar-expand-lg bg-primary fixed-top ">
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="#" rel="tooltip">
@@ -64,20 +64,6 @@
 <!-- End Navbar -->
 <div class="wrapper">
 
-    <div class="page-header clear-filter" style="background: linear-gradient(rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7));">
-        @yield('page-header')
-        <!-- <div class="page-header-image" data-parallax="true" style="background-image: url('/images/bg-perpus-its.jpg');">
-        </div>
-        <div class="container">
-            <div class="content-center brand">
-                {{--<img class="n-logo" src="./assets/img/now-logo.png" alt="">--}}
-                <img class="pb-3" src="{{asset('/images/logo_its.png')}}" style="max-height: 150px;" alt="">
-                <h2>Inter-Loan Library</h2>
-                <h4>Layanan Peminjaman Buku Terpercaya Untuk Masyarakat Dan Mahasiswa Institut Teknologi Sepuluh Nopember.</h4>
-            </div>
-        </div> -->
-    </div>
     <div class="main">
         @yield('content')
     </div>

@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/catalogue', function () {
+    return view('katalog');
+});
+
+Route::get('/catalogue-detail', function () {
+    return view('katalog-detail');
+});
+
+Route::get('/loan', function () {
+    return view('pinjam');
+});
+
 Route::prefix('librarian')->group(function (){
     Route::get('/login', function () {
         return view('login');
@@ -59,5 +71,3 @@ Route::prefix('librarian')->group(function (){
     });
 
 });
-
-
