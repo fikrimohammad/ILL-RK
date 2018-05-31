@@ -25,6 +25,16 @@ Route::prefix('user')->group(function(){
     Route::get('history-peminjaman',function(){
         return view('user-page.history-pinjam');
     });
+Route::get('/catalogue', function () {
+    return view('katalog');
+});
+
+Route::get('/catalogue-detail', function () {
+    return view('katalog-detail');
+});
+
+Route::get('/loan', function () {
+    return view('pinjam');
 });
 
 Route::prefix('librarian')->group(function (){
@@ -71,5 +81,3 @@ Route::prefix('librarian')->group(function (){
     });
 
 });
-
-
