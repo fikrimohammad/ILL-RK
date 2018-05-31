@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::prefix('user')->group(function(){
+    Route::get('index',function(){
+        return view('user-page.index');
+    });
+    Route::get('peminjaman',function(){
+        return view('user-page.daftar-pinjam');
+    });
+    Route::get('history-peminjaman',function(){
+        return view('user-page.history-pinjam');
+    });
+});
+
 Route::prefix('librarian')->group(function (){
     Route::get('/login', function () {
         return view('login');
